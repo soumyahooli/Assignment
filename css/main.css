@@ -1,0 +1,332 @@
+/* Main css file 
+Project: Oakton Assignemt
+Date: 5th May 2016
+Author: Soumya Hooli
+*/
+
+
+.navbar-form{
+    margin-top:13px;
+    display:none;
+}
+
+.navbar-inverse .navbar-brand{
+    margin-left:15% !important;
+    color:#fff;
+    font-weight: bolder;
+     margin-top:4px;
+    font-size: 2em;
+}
+
+@media (min-width: 768px)
+    .navbar-nav {
+    float: left !important;
+    margin: 0 !important;
+}
+
+.navbar-inverse {
+    background-color: #003466;
+    border-color: #003466;
+}
+
+.navbar-inverse .navbar-nav>li>a , 
+.dropdown-menu li a{
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #012B55;
+    color:#fff;
+}
+
+.navbar-inverse .navbar-toggle, 
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #003466;
+    border:1px solid #003466;
+}
+
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top:14px;}
+}
+
+.dropdown-menu>li>a {
+    padding: 0px 20px;
+    line-height: 2.428571;  
+    border: 1px solid #E5655c;
+    background-color: #e5655c;
+    border-radius: 5px;
+    box-shadow: 1px 1px #de554d ;
+    margin: 4px;
+}
+
+.dropdown-menu>li>a:hover {
+    padding: 0px 20px;
+    line-height: 2.428571;  
+    border: 1px solid #FD0100;
+    background-color: #FD0100;
+    border-radius: 5px;
+    box-shadow: 1px 1px #FD0100;
+    margin: 4px;
+    color:#fff;
+}
+
+.navbar-inverse .navbar-nav>li > a:hover {
+    margin-top: 14px;
+    border-radius :5px;
+    background-color: #DE5648 !important;   
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    border-radius: 5px;
+    box-shadow: 0 3px #01224B;
+}
+
+.navbar{
+    min-height:60px;
+}
+
+/* Dropdown menu open on hover event
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #DE5648;
+    margin-top:0px;  
+ }*/
+
+.dropdown-menu {
+    border-radius:5px;
+    border-top-right-radius: 5px !important;
+    margin-top: 5px !important;
+    border-top-left-radius: 5px !important;
+    background-color: #DE5648;
+    }
+
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover{
+    color: #fff;
+    background-color: #003466;
+}
+
+.imageContainer img { 
+    width: 100%;
+    height: auto;
+}
+
+.pageIndicator{
+    position: absolute;
+    top:83%;
+    left:45%
+}
+
+.contentPage{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:3%;
+    width:80%;
+    border:1px solid #ECECEC;
+    border-radius:5px;
+    background-color: #ececec;
+}
+.contentPage p, .contentPage h2{padding:2px;}
+
+/* Style for view more button*/
+.btnView{margin-left:2%;
+    padding-top:5px;
+    padding-bottom: :5px;
+    padding-left:3%;
+    padding-right: 3%;
+    border-radius: 5px;
+    background-color: #E2534B;
+    color:#fff;
+    border:1px solid #E2534B;
+}
+
+@media screen and (min-width: 768px){
+    .carousel-caption {
+    padding-bottom: 155px;}
+}
+
+@media screen and (min-width: 768px){
+    .carousel-indicators {
+    bottom: -8%;}
+}
+/* media queries for responsive screen */
+@media (min-width: 270px) and (max-width: 440px) { 
+    .navbar-nav {
+    float: left !important;
+    margin: 0 !important;
+}
+    .viewBtn{margin-top:4% !important;}
+    
+    .topServices { margin-top: 7% !important;}
+    
+     .carousel-indicators { bottom: -8%;}
+    
+     .carousel-indicators li{ width:15% !important;}
+    
+     .carousel-indicators .active{ width: 15% !important;}
+    
+     .carousel-control .glyphicon-chevron-left, 
+     .carousel-control .icon-prev{
+           width:90% !important;
+           padding-bottom:10px !important;
+       }
+       .carousel-control .glyphicon-chevron-right, 
+       .carousel-control .icon-prev{
+       width:90% !important;
+       padding-bottom:10px !important;
+       left:20% !important;
+       padding-right:10px !important
+    }
+       
+.carousel-caption h1{
+    width: 62% !important;
+    margin-left: 22% !important;
+}
+    
+.carousel-caption p{
+    width: 74% !important;
+    margin-left: 16% !important;
+}
+    
+.carousel-inner>.item>img{
+    height:400px !important;
+}
+    
+.searchDiv{width:100% !important}
+    
+.navbar-collapse {
+     max-height: none;
+} 
+}
+
+@media (min-width: 445px) and (max-width: 760px){ 
+    .navbar-nav {
+    float: left !important;
+    margin: 0 !important;
+}
+.viewBtn{margin-top:4% !important;}
+.topServices {margin-top: 5% !important;}
+.carousel-indicators {bottom: -10%;}
+.carousel-indicators li{width:15% !important;}
+.carousel-indicators .active{width: 15% !important;}
+.carousel-inner>.item>img{height:350px !important;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    width:90% !important;
+    padding-bottom:10px !important;
+       }
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev{width:90% !important;
+       padding-bottom:10px !important;
+       left:20% !important;
+       padding-right:10px !important}
+.searchDiv{width:100% !important}   
+}
+@media (min-width: 761px) and (max-width: 1349px){ 
+  .carousel-inner>.item>img{height:505px !important;} 
+}
+@media (min-width: 1370px) and (max-width: 1920px){ 
+  .carousel-inner>.item>img{height:740px !important;}
+}
+.carousel-indicators li{
+    background-color:#BABABA;
+    border:1px solid #bababa;
+    border-radius: 0;
+    width: 7%;
+}
+
+.carousel-indicators .active{
+    background-color:#E2534B;
+    border:1px solid #E2534B;
+    border-radius: 0;
+    height: 10px;
+    width: 7%;
+    margin: 1px;
+}
+.carousel-caption h1{
+    color:#fff; 
+    background-color: #E2534B;
+    border:1px solid #E2534B;
+    border-radius:5px;
+    width: 45%;
+    margin-left: 32%;
+    box-shadow:2px 1px #B28194;
+}
+.carousel-caption p{
+    color:#fff; 
+    background-color: #57646D;
+    border:1px solid #57646D;
+    border-radius:5px;
+    width: 57%;
+    margin-left: 26%;
+    padding:10px;
+    opacity: 0.5;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    left: 4%;
+    background-color: #E2534B;
+    border: 1px solid #E2534B;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 25%;
+    opacity: 1;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev{
+    left: 75%;
+    background-color: #E2534B;
+    border: 1px solid #E2534B;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 25%;
+    opacity: 1;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, .carousel-control .icon-prev {
+    top: 56.5%}
+
+.topServices {
+    margin-top: 3%;
+    margin-left: 12%;
+    margin-right: 12%;
+    color:#858B8B;
+}
+.viewBtn{
+    background-color: #E2534B;
+    border: 1px solid #E2534B;
+    box-shadow: 0px 5px #CC5E5D;
+    color: #fff;
+    margin-top:12%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.viewBtn:hover , .viewBtn:focus{
+    color:#fff;
+}
+.searchDiv{
+    margin-top:1%;
+    margin-left:5px !important;
+    width: 20%;
+}
+
+.showSearch{
+    display: inline-flex;
+}
+.hideSearch{
+    display:none;
+}
+.glyphicon-menu-down , 
+.glyphicon-menu-right{font-size:10px;}
