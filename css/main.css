@@ -34,6 +34,13 @@ Author: Soumya Hooli
     color: #fff;
 }
 
+/*
+.dropdownFocus{
+    border: 1px solid #E5655c !important;
+    background-color: #e5655c !important;  
+    border-radius:5px;
+}
+*/
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover{
@@ -63,17 +70,18 @@ Author: Soumya Hooli
     border-radius: 5px;
     box-shadow: 1px 1px #de554d ;
     margin: 4px;
+    color:#fff !important;
 }
 
 .dropdown-menu>li>a:hover {
     padding: 0px 20px;
     line-height: 2.428571;  
     border: 1px solid #FD0100;
-    background-color: #FD0100;
+    background-color: #FD0100 !important;
     border-radius: 5px;
     box-shadow: 1px 1px #FD0100;
     margin: 4px;
-    color:#fff;
+    color:#fff !important;
 }
 
 .navbar-inverse .navbar-nav>li > a:hover {
@@ -156,8 +164,14 @@ Author: Soumya Hooli
     .carousel-indicators {
     bottom: -8%;}
 }
+
 /* media queries for responsive screen */
-@media (min-width: 270px) and (max-width: 440px) { 
+@media (min-width: 270px) and (max-width: 420px) { 
+    .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 14px;
+}
     .navbar-nav {
     float: left !important;
     margin: 0 !important;
@@ -188,6 +202,7 @@ Author: Soumya Hooli
 .carousel-caption h1{
     width: 62% !important;
     margin-left: 22% !important;
+    font-size:1.8em;
 }
     
 .carousel-caption p{
@@ -199,17 +214,34 @@ Author: Soumya Hooli
     height:400px !important;
 }
     
-.searchDiv{width:100% !important}
+.searchDiv{width:50% !important}
     
 .navbar-collapse {
      max-height: none;
 } 
 }
-
+@media (min-width: 421px) and (max-width: 444px) {
+    .carousel-inner>.item>img{
+    height:400px !important;
+}
+    .carousel-caption h1{
+    font-size: 1.7em;
+        width:49% !important;
+        margin-left:30% !important;
+}
+}
 @media (min-width: 445px) and (max-width: 760px){ 
+    .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 14px;
+}
     .navbar-nav {
     float: left !important;
     margin: 0 !important;
+}
+.carousel-caption h1{
+    font-size:1.8em;
 }
 .viewBtn{margin-top:4% !important;}
 .topServices {margin-top: 5% !important;}
@@ -330,3 +362,6 @@ Author: Soumya Hooli
 }
 .glyphicon-menu-down , 
 .glyphicon-menu-right{font-size:10px;}
+ .navbar-fixed-top .navbar-collapse {
+    max-height: none;
+}
